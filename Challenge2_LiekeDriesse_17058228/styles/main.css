@@ -1,0 +1,241 @@
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+	background-color: #EFEEE8;
+	color: black;
+  font-family: 'Shree Devanagari 714';
+
+}
+
+
+img.logo{
+  max-width:40%;
+}
+
+img.homewinkel{
+  max-width:50%;
+  float:left;
+  border-radius:10px;
+}
+
+img.teamfoto{
+  max-width:100%;
+  border-radius:10px;
+
+}
+
+h1 {
+  text-align: center;
+  background-color: #323232;
+  font-family: 'Futura';
+  color:#E0E0DE;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #323232;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Futura';
+  color: #FFFFFF;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura';
+  color: #323232;
+}
+
+p{
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+}
+
+p.welkomtekst{
+
+}
+
+a{
+  color:#E0BD2B;
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+  font-weight:bold;
+}
+
+
+a.menu{
+    font-family:'Futura';
+    font-style:bold;
+    color:#323232;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+}
+
+.header {
+    background-color: #E0BD2B;
+    border-radius: 20px;
+
+}
+#menu {
+    background-color: #E0BD2B;
+    border-radius: 10px;
+
+
+}
+
+
+.main {
+    background-color: #E0E0DE;
+    max-width:100%px;
+    border-radius: 10px;
+}
+
+
+
+.ad1 {
+    background-color: #E0E0DE;
+    max-width:100%;
+    border-radius: 10px;
+
+}
+.ad2 {
+    background-color: #E0E0DE;
+    border-radius: 10px;
+    
+}
+.foot {
+    background-color: #E0E0DE;
+    border-radius: 10px;
+}
+
+  q {
+    width: 6em;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+
+}
+
+.socialemedia{
+  max-width:50px;
+  max-height:50px;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .main{
+    max-width:100%;
+  }
+
+  .ad1{
+    max-width:100%;
+  }
+
+  .ad2{
+    max-width:100%;
+  }
+
+  img.homewinkel{
+    max-width:100%;
+  }
+
+  q {
+    width: 6em;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .main{
+    max-width:100%;
+  }
+
+  .ad1{
+    max-width:100%;
+  }
+
+  .ad2{
+    max-width:100%;
+  }
+
+  img.homewinkel{
+    max-width:100%;
+  }
+
+
+
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  img.homewinkel{
+    display:none;
+  }
+
+
+
+  .main{
+    max-width:100%;
+  }
+
+  .ad1{
+    max-width:100%;
+  }
+
+  .ad2{
+    max-width:100%;
+  }
+
+  img.homewinkel{
+    max-width:100%;
+  }
+
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}

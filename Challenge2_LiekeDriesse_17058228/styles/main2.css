@@ -1,0 +1,620 @@
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: white;
+  color: black;
+  font-family: 'Shree Devanagari 714';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "main  main"
+        "ad1   ad2"
+        "foot  foot "; 
+}
+
+
+img.logo{
+  max-width:50%;
+}
+
+img.homewinkel{
+  max-width:50%;
+  float:left;
+  padding:10px;
+
+}
+
+img.teamfoto{
+  max-width:100%;
+
+
+}
+
+h1 {
+  text-align: center;
+  background-color: #323232;
+  font-family: 'Futura';
+  color:#E0E0DE;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #323232;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Futura';
+  color: #FFFFFF;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura';
+  color: #323232;
+}
+
+p{
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+}
+
+p.welkomtekst{
+
+}
+
+a{
+  color:#E0BD2B;
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+  font-weight:bold;
+}
+
+
+a.menu{
+    font-family:'Futura';
+    font-style:bold;
+    color:#323232;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+}
+
+.header {
+    background-color: #E0BD2B;
+
+
+}
+#menu {
+    background-color: #E0BD2B;
+
+
+
+}
+
+.main {
+    background-color: white;
+    max-width:100%px;
+    border-radius: 10px;
+}
+
+
+
+.ad1 {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+
+}
+.ad2 {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.foot {
+    background-color:#EFEEE8;
+    border-radius: 10px;
+}
+
+  q {
+    width: 6em;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+
+img {
+  width: 100%;
+
+}
+
+footer {
+
+}
+
+.socialemedia{
+  max-width:50px;
+  max-height:50px;
+}
+@media only screen and (max-width: 414px){
+ html {
+  box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #E0BD2B;
+  color: black;
+  font-family: 'Shree Devanagari 714';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "main  main"
+        "ad1   ."
+        "ad2   ."
+        "foot  foot"; 
+}
+
+/*.ad1, .ad2{
+    display: grid;
+    width:100%;
+    grid-template-areas: 
+    "ad1"
+    "ad2";
+}
+.ad1 {
+  grid-area:ad1 }
+.ad2 {
+  grid-area: ad2
+}
+*/
+
+img.logo{
+  max-width:100%;
+}
+
+img.homewinkel{
+display:none;
+}
+
+img.teamfoto{
+  width:100%;
+}
+
+img.blog{
+  display:none;
+}
+
+h1 {
+  text-align: center;
+  background-color: #323232;
+  font-family: 'Futura';
+  color:#E0E0DE;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #323232;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Futura';
+  color: #FFFFFF;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura';
+  color: #323232;
+}
+
+p{
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+}
+
+p.welkomtekst{
+
+}
+
+a{
+  color:#E0BD2B;
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+  font-weight:bold;
+}
+
+
+a.menu{
+    font-family:'Futura';
+    font-style:bold;
+    color:#323232;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+  margin: 0.5em 0.5em;
+}
+
+.header {
+    background-color: #E0BD2B;
+}
+
+#menu {
+    background-color: #E0BD2B;
+}
+
+.main {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+}
+
+
+.ad1 {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+
+}
+.ad2 {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.foot {
+    background-color: #EFEEE8;
+    border-radius: 10px;
+}
+
+  q {
+    width: 6em;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+
+img {
+  width: 100%;
+
+}
+
+
+.socialemedia{
+  max-width:50px;
+  max-height:50px;
+}
+}
+
+
+@media only screen and (max-width: 768px){
+ html {
+  box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #E0BD2B;
+  color: black;
+  font-family: 'Shree Devanagari 714';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "main  main"
+        "ad1   ad1"
+        "ad2   ad2"
+        "foot  foot "; 
+}
+
+
+img.logo{
+  max-width:40%;
+}
+
+img.homewinkel{
+  max-width:100%;
+
+
+
+}
+
+img.teamfoto{
+  max-width:100%;
+
+
+}
+
+h1 {
+  text-align: center;
+  background-color: #323232;
+  font-family: 'Futura';
+  color:#E0E0DE;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #323232;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Futura';
+  color: #FFFFFF;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura';
+  color: #323232;
+}
+
+p{
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+}
+
+
+a{
+  color:#E0BD2B;
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+  font-weight:bold;
+}
+
+
+a.menu{
+    font-family:'Futura';
+    font-style:bold;
+    color:#323232;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+}
+
+.header {
+    background-color: #E0BD2B;
+
+
+}
+#menu {
+    background-color: #E0BD2B;
+
+}
+
+.main {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+}
+
+.ad1 {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+
+}
+.ad2 {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.foot {
+    background-color: white;
+    border-radius: 10px;
+}
+
+  q {
+    width: 6em;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+.socialemedia{
+  max-width:50px;
+  max-height:50px;
+}
+}
+
+
+@media only screen and (max-width: 1024px){
+  html {
+  box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #E0BD2B;
+  color: black;
+  font-family: 'Shree Devanagari 714';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "main  main"
+        "ad1   ad2"
+        "foot  foot "; 
+}
+
+
+img.logo{
+  max-width:40%;
+}
+
+img.homewinkel{
+  max-width:100%;
+
+}
+
+img.teamfoto{
+  max-width:100%;
+
+
+}
+
+h1 {
+  text-align: center;
+  background-color: #323232;
+  font-family: 'Futura';
+  color:#E0E0DE;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #323232;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Futura';
+  color: #FFFFFF;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura';
+  color: #323232;
+}
+
+p{
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+}
+
+p.welkomtekst{
+
+}
+
+a{
+  color:#E0BD2B;
+  font-family:'Shree Devanagari 714';
+  font-size:11pt;
+  font-weight:bold;
+}
+
+
+a.menu{
+    font-family:'Futura';
+    font-style:bold;
+    color:#323232;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+
+}
+
+.header {
+    background-color: #E0BD2B;
+
+
+}
+#menu {
+    background-color: #E0BD2B;
+
+
+
+}
+
+.main {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+}
+
+
+
+.ad1 {
+    background-color: white;
+    max-width:100%;
+    border-radius: 10px;
+
+}
+.ad2 {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.foot {
+    background-color: white;
+    border-radius: 10px;
+}
+
+  q {
+    width: 6em;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px #E0BD2B;
+    border-bottom: 1px #E0BD2B;
+    color:#E0BD2B;
+    font-weight: bold;
+  }
+
+img {
+  width: 100%;
+}
+
+.socialemedia{
+  max-width:50px;
+  max-height:50px;
+}
+}
